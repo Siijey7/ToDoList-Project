@@ -130,7 +130,7 @@
                             <path d="M28 10 L29 7 L30 10 Z" fill="#FF7F50"/>
                         </svg>
 
-                        <img src="https://scontent.fceb6-1.fna.fbcdn.net/v/t39.30808-6/481140241_122223187364091148_4397234662320790934_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEgYy8oMpU5-TKKZSbdHNWUEZiBd6j0vHYRmIF3qPS8djXi-QqX81R1jEIt_NpAIL5CgOnFw3hgrAWR01l_vyfO&_nc_ohc=a-h64Hus4egQ7kNvwEHuoDK&_nc_oc=Adkg2DK8ocQ23MWkRia4s6Mx0sHxdw0dk1o1_OT0PruN3VdovFGYBViVN7lyX5I4vS4&_nc_zt=23&_nc_ht=scontent.fceb6-1.fna&_nc_gid=xOBzQ4MFh66iCy7oy30P3w&oh=00_Afcx_Jg3AyQNSo3SIaYpZfXgn-KJ7qf67jjmj96DHAwJHQ&oe=68F3F3D5" alt="Instructor's Photo" class="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-white shadow-lg mb-4">
+                        <img id="instructor-photo" src="https://scontent.fceb6-1.fna.fbcdn.net/v/t39.30808-6/481140241_122223187364091148_4397234662320790934_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEgYy8oMpU5-TKKZSbdHNWUEZiBd6j0vHYRmIF3qPS8djXi-QqX81R1jEIt_NpAIL5CgOnFw3hgrAWR01l_vyfO&_nc_ohc=a-h64Hus4egQ7kNvwEHuoDK&_nc_oc=Adkg2DK8ocQ23MWkRia4s6Mx0sHxdw0dk1o1_OT0PruN3VdovFGYBViVN7lyX5I4vS4&_nc_zt=23&_nc_ht=scontent.fceb6-1.fna&_nc_gid=xOBzQ4MFh66iCy7oy30P3w&oh=00_Afcx_Jg3AyQNSo3SIaYpZfXgn-KJ7qf67jjmj96DHAwJHQ&oe=68F3F3D5" alt="Instructor's Photo" class="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-white shadow-lg mb-4">
                         <h2 class="text-4xl sm:text-5xl font-black tracking-tight leading-tight text-white">
                             HAPPY BIRTHDAY!
                         </h2>
@@ -154,25 +154,11 @@
                                 A Small Gift: A Pokémon-Themed Joke
                             </p>
                             <p class="text-sm italic">
-                                You know, Professor Oak always warned trainers about the dangers of the tall grass, but he never mentioned the biggest threat to your Pokedex: the server running a simple **Data Structure** query. I was trying to find a truly rare Pokémon, like a shiny Snorlax, but the search crashed because the database was using a Bubble Sort instead of a Quick Sort. It was so slow, I think even a Magikarp could've outpaced that algorithm. Maybe that's why trainers are always yelling, 'Gotta catch 'em all!' It's not about collecting; it's about trying to **Catch The Exception** before the system bluescreens! We hope your birthday runs smoothly without any segmentation faults!
+                                You know, Professor Oak always warned trainers about the dangers of the tall grass, but he never mentioned the biggest threat to your Pokedex: the server running a simple Data Structure query. I was trying to find a truly rare Pokémon, like a shiny Snorlax, but the search crashed because the database was using a Bubble Sort instead of a Quick Sort. It was so slow, I think even a Magikarp could've outpaced that algorithm. Maybe that's why trainers are always yelling, 'Gotta catch 'em all!' It's not about collecting; it's about trying to Catch The Exception before the system bluescreens! We hope your birthday runs smoothly without any segmentation faults!
                             </p>
 
                             <p class="mt-4 text-sm italic">Sincerely,</p>
                             <p class="text-sm italic">Your Students</p>
                         </div>
 
-                        <a href="#" class="reset-link inline-block text-background-dark bg-white/90 px-6 py-2 font-bold rounded-full shadow-md hover:bg-white transition duration-300 mt-4">
-                            (Close Card)
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <p class="mt-8 text-gray-500 text-sm">
-            Submitted by: Chyrene James Gapoy | Status: Awaiting Review
-        </p>
-    </main>
-</body>
-</html> how can i share this
+                        <a href="#" class="reset-link inline-block text-background-dark bg-white/90 px-6 py-2 font-bold rounded-full shadow-md hover:
