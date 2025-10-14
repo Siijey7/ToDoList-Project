@@ -154,11 +154,65 @@
                                 A Small Gift: A Pokémon-Themed Joke
                             </p>
                             <p class="text-sm italic">
-                                You know, Professor Oak always warned trainers about the dangers of the tall grass, but he never mentioned the biggest threat to your Pokedex: the server running a simple Data Structure query. I was trying to find a truly rare Pokémon, like a shiny Snorlax, but the search crashed because the database was using a Bubble Sort instead of a Quick Sort. It was so slow, I think even a Magikarp could've outpaced that algorithm. Maybe that's why trainers are always yelling, 'Gotta catch 'em all!' It's not about collecting; it's about trying to Catch The Exception before the system bluescreens! We hope your birthday runs smoothly without any segmentation faults!
+                                You know, Professor Oak always warned trainers about the dangers of the tall grass, but he never mentioned the biggest threat to your Pokedex: the server running a simple **Data Structure** query. I was trying to find a truly rare Pokémon, like a shiny Snorlax, but the search crashed because the database was using a Bubble Sort instead of a Quick Sort. It was so slow, I think even a Magikarp could've outpaced that algorithm. Maybe that's why trainers are always yelling, 'Gotta catch 'em all!' It's not about collecting; it's about trying to **Catch The Exception** before the system bluescreens! We hope your birthday runs smoothly without any segmentation faults!
                             </p>
 
                             <p class="mt-4 text-sm italic">Sincerely,</p>
                             <p class="text-sm italic">Your Students</p>
                         </div>
 
-                        <a href="#" class="reset-link inline-block text-background-dark bg-white/90 px-6 py-2 font-bold rounded-full shadow-md hover:
+                        <a href="#" class="reset-link inline-block text-background-dark bg-white/90 px-6 py-2 font-bold rounded-full shadow-md hover:bg-white transition duration-300 mt-4">
+                            (Close Card)
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <p class="mt-8 text-gray-500 text-sm">
+            Submitted by: Chyrene James Gapoy | Status: Awaiting Review
+        </p>
+    </main>
+
+    <audio id="birthdayMusic" src="https://www.youtube.com/watch?v=8QF9hM1MQwc&list=RD8QF9hM1MQwc&start_radio=1" preload="auto"></audio> 
+    
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const revealButton = document.getElementById('revealButton');
+            const closeLink = document.querySelector('.reset-link');
+            const cardMusic = document.getElementById('birthdayMusic');
+
+         
+            const playMusic = () => {
+                if (cardMusic) {
+                    cardMusic.volume = 0.6; // Set volume to 60%
+                    cardMusic.play().catch(error => {
+                        console.error("Autoplay failed:", error);
+                        // Fallback/debugging message if the browser blocks play
+                    });
+                }
+            };
+
+   
+            const stopMusic = () => {
+                if (cardMusic) {
+                    cardMusic.pause();
+                    cardMusic.currentTime = 0; // Reset to the start
+                }
+            };
+
+            // Event listener for the "View Project Details" button
+            if (revealButton) {
+                revealButton.addEventListener('click', playMusic);
+            }
+
+            // Event listener for the "Close Card" link
+            if (closeLink) {
+                closeLink.addEventListener('click', stopMusic);
+            }
+        });
+    </script>
+</body>
+</html>
