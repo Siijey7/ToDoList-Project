@@ -22,7 +22,7 @@
                     keyframes: {
                         pulseNeon: {
                             '0%, 100%': { transform: 'scale(1)', filter: 'drop-shadow(0 0 10px rgba(255, 127, 80, 0.7))' },
-                            '50%': { transform: 'scale(1.05)', filter: 'drop-shadow(0 0 20px rgba(255, 127, 80, 1))' },
+                            '60%': { transform: 'scale(1.05)', filter: 'drop-shadow(0 0 20px rgba(255, 127, 80, 1))' },
                         }
                     },
                     animation: {
@@ -150,9 +150,7 @@
                                 Your support makes our class a good place to learn. We appreciate your time and effort. We wish you success and happiness in the coming year.
                             </p>
 
-                            <p class="mt-4 pt-4 text-sm font-bold border-t border-celebration-coral/50">
-                                A Small Gift: A Pokémon-Themed Joke
-                            </p>
+                      
                             <p class="text-sm italic">
                                 You know, Professor Oak always warned trainers about the dangers of the tall grass, but he never mentioned the biggest threat to your Pokedex: the server running a simple **Data Structure** query. I was trying to find a truly rare Pokémon, like a shiny Snorlax, but the search crashed because the database was using a Bubble Sort instead of a Quick Sort. It was so slow, I think even a Magikarp could've outpaced that algorithm. Maybe that's why trainers are always yelling, 'Gotta catch 'em all!' It's not about collecting; it's about trying to **Catch The Exception** before the system bluescreens! We hope your birthday runs smoothly without any segmentation faults!
                             </p>
